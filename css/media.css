@@ -1,0 +1,159 @@
+
+/* extra Small devices (landscape phones, 576px and up)*/
+@media(max-width:575px){
+
+    .header{
+   display: none;
+}
+    .navbar {
+	padding-top: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	 padding-left:0;
+	 font-size:16px;
+    padding-top:0px;
+    padding-bottom: 10px;
+}    
+.navbar-collapse {
+	background:#ffffff;
+
+	text-align: center;
+}
+.navbar ul li a {
+    color: #2c3740!important;
+}    
+    
+    
+ .banner-bg .text {
+	padding-top: 100px;
+   padding-bottom:100px;  
+}   
+  .banner-bg .text h2 {
+	font-size: 20px;
+}  
+   .banner-bg .text .type-wrap {
+	font-size: 22px;
+} 
+
+.info-main {
+	padding: 70px 0px;
+}
+.info h3 {
+	font-size: 18px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+    .service{
+        padding-top: 70px;
+    }    
+.service-head h2 {
+	padding-top: 35px;
+	padding-bottom: 8px;
+}    
+ .education .education-head h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}   
+    .works{
+        padding-top: 70px;
+    }  
+.works h2 {
+    padding-top: 0;
+	padding-bottom: 20px;
+}  
+    .education{
+        padding-top: 70px;
+        padding-bottom: 0px;
+    } 
+    
+.filter-button {
+	font-size: 18px;
+    margin-bottom: 2px;
+}    
+}
+
+.comments{
+    padding-top: 0px;
+}
+.comments p {
+    padding: 10px 0px;
+	font-size: 16px;
+	line-height: 18px;
+}
+.comments i{
+    padding-top: 50px;
+    padding-bottom:10px;
+}
+
+.contact-head h3 {
+	padding-top: 70px;
+}
+.ptb {
+	padding:0;
+}
+
+/*small devices (tablets, 576 and up)*/
+
+
+@media(min-width:576px) and (max-width:767px){
+.navbar-collapse {
+	background:#ffffff;
+
+	text-align: center;
+}
+.navbar ul li a {
+    color: #2c3740!important;
+}    
+ 
+   .banner-bg .text {
+	padding-top: 100px;
+    padding-bottom:50px; 
+}   
+  .banner-bg .text h2 {
+	font-size: 30px;
+}  
+   .banner-bg .text .type-wrap {
+	font-size: 32px;
+} 
+      .header{
+   display: none;
+} 
+        .navbar {
+	padding-top: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	 padding-left:0;
+	 font-size:16px;
+    padding-top:0px;
+    padding-bottom: 10px;
+} 
+}
+
+
+/*small devices (tablets, 768px and up)*/
+
+
+@media (min-width:768px) and (max-width:991px) { 
+
+.navbar-collapse {
+	background:#ffffff;
+
+	text-align: center;
+}
+.navbar ul li a {
+    color: #2c3740!important;
+}    
+ 
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) { ... }*/
+
+/* Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { ... }*/
+
+
+
+

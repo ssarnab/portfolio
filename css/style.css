@@ -1,0 +1,652 @@
+/*Common CSS start*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*Common CSS start*/
+
+/*import and Declare Fonts Start*/
+
+@font-face {
+    font-family: rr;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: rb;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face{
+    font-family:reb;
+    src:url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+/*import and Declare Fonts Start*/
+
+/* Preloader Part Start */
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 99999;
+}
+
+.preloader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Preloader CSS End*/
+
+/*===================
+Header Part CSS Start
+====================*/
+
+.header .right ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.header .right ul li i {
+    color: #fff;
+    position: relative;
+    z-index: 2222;
+}
+
+.header {
+    background: #2c3740;
+
+}
+
+.header .left {
+    color: #fff;
+    font-style: 16px;
+}
+
+.header .left i {
+    color: #fff;
+}
+
+.header .left h6 {
+    display: inline-block;
+}
+
+.header .left p {
+    display: inline-block;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding-top: 40px;
+
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(204, 202, 200, .8);
+    border-color: rgba(204, 202, 200, .8);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: rr;
+    color: #fff;
+    transition: all linear .3s;
+    position: relative;
+}
+
+/*
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: red;
+    height: 3px;
+    opacity: 0;
+}
+
+
+*/
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+
+    color: #5192aa;
+
+}
+
+.add-nav {
+    background: #ffffff;
+    padding: 0;
+}
+
+.add-nav ul li a {
+    color: #2c3740!important;
+}
+
+
+/*===================
+Header Part CSS End
+====================*/
+
+/*===================
+Banner Part CSS Start
+====================*/
+
+body {
+    position: relative;
+}
+
+
+.banner-bg {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.banner-bg::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 55, 64, .6);
+
+}
+
+.banner-bg .text {
+    padding: 150px 0px;
+    position: relative;
+    z-index: 99;
+
+}
+
+.banner-bg .text h3 {
+    font-family: rr;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.banner-bg .text h3 span{
+    color: #5192aa;
+    font-family: reb;
+    background: #eee;
+}
+
+.banner-bg .social-link ul li {
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 14px;
+    font-family: rr;
+    color: #fff;
+}
+
+.banner-bg .social-link ul li i {
+    font-size: 20px;
+    color: #fff;
+    z-index: 99;
+    position: absolute;
+    transition: all linear .3s;
+
+}
+
+.banner-bg .social-link ul li i:hover {
+    color: #5192aa;
+}
+
+.banner-bg .text .type-wrap {
+    font-family: rb;
+    color: #fff;
+    padding-bottom: 40px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+.banner-bg .text img {
+
+    border: 3px Solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 15%;
+    height: 240px;
+    width: 200px;
+
+}
+
+
+.banner-bg .text a {
+    padding: 8px 10px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    transition: all linear .3s;
+
+
+}
+
+.banner-bg .text a:hover {
+
+    background: #5192aa;
+    color: #fff;
+    border: 1px solid #5192aa;
+    text-decoration: none;
+}
+
+
+/*===================
+Banner Part CSS End
+====================*/
+
+/*===================
+info Part CSS Start
+====================*/
+
+.info-main {
+    padding-top: 150px;
+}
+
+.slide {
+    position: relative;
+}
+
+
+.barfiller {
+    width: 100%;
+    height: 15px;
+    background: #ddd;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    background: #5192aa!important;
+    z-index: 1;
+}
+
+.barfiller .tipWrap {
+    display: none;
+}
+
+.barfiller .tip {
+    margin-top: -30px;
+    padding: 4px 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+    background: #5192aa;
+    border-radius: 4px;
+}
+
+.barfiller .tip:after {
+    border: solid;
+    border-color: rgb(81, 146, 170) transparent;
+    border-width: 6px 6px 0 6px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 17px;
+    top: 100%;
+    z-index: 9
+}
+
+
+
+
+/*===================
+info Part CSS End
+====================*/
+
+/*=======================
+My Service Part CSS Start
+========================*/
+
+.service {
+    background: #ffffff;
+    padding-bottom: 100px;
+
+}
+
+.service h2 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-family: rr;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.service-head h3 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-family: rb;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.service-head p {
+
+    font-family: rr;
+    font-size: 16;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.service-item {
+    margin-bottom: 10px;
+
+}
+
+.service-item .si {
+
+    border: 1px dashed #cce5ef;
+    margin-bottom: 30px!important;
+    box-shadow: 2px 5px #e5e5e5;
+}
+
+.service-item i {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    font-size: 60px;
+    color: #5192aa;
+}
+
+
+/*=====================
+My Service Part CSS End
+=======================*/
+
+/*back to top css start*/
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    display: none;
+}
+
+.back-to-top i {
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    color: #170909;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/*back to top css end*/
+
+/*=====================================
+Education And Background Part CSS Start
+=======================================*/
+
+.edu-body .text2 h5 {
+    font-family: rb;
+    color: #000;
+    background: #fff;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.edu-body .text2 h4 {
+    font-family: rb;
+    color: #5192aa;
+    padding-bottom: 15px;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.edu-body .text2 p {
+    font-family: rr;
+    color: #2c3740;
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+
+
+}
+
+.education .education-head h2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: rr;
+    color: #2c3740;
+    text-transform: uppercase;
+
+}
+
+.education {
+    position: relative;
+    padding-bottom: 90px;
+
+}
+
+
+
+/*=====================================
+Education And Experiance Part CSS End
+=======================================*/
+
+/*Work part CSS Start*/
+
+.works h2 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-family: rr;
+    font-size: 35px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.works-css {
+    text-align: center;
+}
+
+.filter-button {
+    font-size: 18px;
+    border: 1px solid #5192aa;
+    text-align: center;
+    color: #144658;
+    border-radius: none;
+    margin-bottom: 30px;
+    font-family: rr;
+    transition: all linear .3s;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.filter-button:hover {
+    border: 1px solid #5192aa;
+    color: #ffffff;
+    background-color: #5192aa;
+}
+
+.btn-default:active .filter-button:active {
+    background-color: #5192aa;
+    color: white;
+}
+
+.port-image {
+    width: 100%;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+}
+
+/* Light-box start */
+
+.gallery_product {
+    width: 25%;
+    float: left;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.gallery_product img {
+    width: 100%;
+}
+
+.gallery_product a {
+    position: relative;
+    display: block;
+}
+
+.gallery_product .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.gallery_product .overlay i {
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    transition: all linear 0.3s;
+}
+
+.gallery_product .overlay i:hover {
+    background: #fff;
+    color: #5192aa;
+}
+
+.gallery_product:hover .overlay {
+    opacity: 1;
+}
+
+
+/*Contact part css start*/
+
+.contact-main {
+    padding-bottom: 70px;
+}
+
+.contact-head h3 {
+    font-family: rr;
+    font-size: 22px;
+    color: #000000;
+    padding-bottom: 35px;
+}
+
+.form-control {
+    padding: 17px 20px;
+}
+
+.mesg {
+    padding-bottom: 167px;
+}
+
+.butn {
+    padding: 14px 32px;
+    background: none;
+    color: #5192aa;
+    border: 1px solid #5192aa;
+    font-family: rr;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: all linear .3s;
+
+}
+
+.butn:hover {
+    background: #5192aa;
+    color: #fff;
+    border: 1px solid #5192aa;
+}
+
+.brand-item {
+    padding-bottom: 30px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.brand-item img {
+
+    width: 100%;
+}
+
+
+/*Contact part css End*/
+
+/*footer part css start*/
+
+.footer {
+    text-align: center;
+    background: #f2f0eb;
+    padding: 30px 0px;
+
+}
+
+.footer h5 {
+    color: #000000;
+    font-family: rr;
+
+}
+
+/*footer part css end*/
+
+/*temp css*/
