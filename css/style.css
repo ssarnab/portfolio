@@ -26,16 +26,16 @@ img {
 /*import and Declare Fonts Start*/
 
 @font-face {
-    font-family: rr;
+    font-family: or;
     src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: rb;
+    font-family: ob;
     src: url(../fonts/OpenSans-SemiBold.ttf);
 }
 @font-face{
-    font-family:reb;
+    font-family:oeb;
     src:url(../fonts/OpenSans-ExtraBold.ttf);
 }
 
@@ -116,7 +116,7 @@ Header Part CSS Start
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 25px;
     font-size: 20px;
-    font-family: rr;
+    font-family: or;
     color: #fff;
     transition: all linear .3s;
     position: relative;
@@ -196,7 +196,7 @@ body {
 }
 
 .banner-bg .text h3 {
-    font-family: rr;
+    font-family: or;
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -213,7 +213,7 @@ body {
     display: inline-block;
     padding-left: 50px;
     font-size: 14px;
-    font-family: rr;
+    font-family: or;
     color: #fff;
 }
 
@@ -231,7 +231,7 @@ body {
 }
 
 .banner-bg .text .type-wrap {
-    font-family: rb;
+    font-family: ob;
     color: #fff;
     padding-bottom: 40px;
     font-size: 60px;
@@ -284,11 +284,6 @@ info Part CSS Start
     padding-top: 150px;
 }
 
-.slide {
-    position: relative;
-}
-
-
 .barfiller {
     width: 100%;
     height: 15px;
@@ -303,12 +298,45 @@ info Part CSS Start
     position: relative;
     width: 0px;
     height: 100%;
-    background: #5192aa!important;
+    background: #52c0e8!important;
     z-index: 1;
 }
 
 .barfiller .tipWrap {
     display: none;
+}
+.info-main{
+    background: #111;
+    padding: 200px 0px;
+}
+.info h3{
+    color: #eee;
+    font-size: 30px;
+    font-family: oeb;
+    padding-bottom: 20px;
+    
+}
+.info h3 span{
+    font-size: 25px;
+}
+.info i{
+color: #52c0e8;
+
+}
+
+.info p{
+    font-family: or;
+	margin: 10px 0 23px;
+	font-size: 16px;
+	line-height: 32px;
+    color: white;
+    text-transform: capitalize;
+
+}
+.info h5{
+font-family: or;
+    font-size: 20px;
+    color: #eee;
 }
 
 .barfiller .tip {
@@ -356,7 +384,7 @@ My Service Part CSS Start
 .service h2 {
     padding-bottom: 80px;
     padding-top: 80px;
-    font-family: rr;
+    font-family: or;
     color: #000;
     text-transform: uppercase;
 }
@@ -364,14 +392,14 @@ My Service Part CSS Start
 .service-head h3 {
     padding-top: 80px;
     padding-bottom: 30px;
-    font-family: rb;
+    font-family: ob;
     font-size: 25px;
     text-transform: uppercase;
 }
 
 .service-head p {
 
-    font-family: rr;
+    font-family: or;
     font-size: 16;
     line-height: 16px;
     text-transform: uppercase;
@@ -448,7 +476,7 @@ Education And Background Part CSS Start
 
 
 .edu-body .text2 p {
-    font-family: rr;
+    font-family: or;
     color: #2c3740;
     padding-bottom: 20px;
     font-size: 16px;
@@ -461,7 +489,7 @@ Education And Background Part CSS Start
 .education .education-head h2 {
     padding-top: 80px;
     padding-bottom: 80px;
-    font-family: rr;
+    font-family: or;
     color: #2c3740;
     text-transform: uppercase;
 
@@ -484,7 +512,7 @@ Education And Experiance Part CSS End
 .works h2 {
     padding-top: 80px;
     padding-bottom: 30px;
-    font-family: rr;
+    font-family: or;
     font-size: 35px;
     color: #000;
     text-transform: uppercase;
@@ -501,7 +529,7 @@ Education And Experiance Part CSS End
     color: #144658;
     border-radius: none;
     margin-bottom: 30px;
-    font-family: rr;
+    font-family: or;
     transition: all linear .3s;
     text-transform: uppercase;
     border-radius: 0;
@@ -585,7 +613,7 @@ Education And Experiance Part CSS End
 }
 
 .contact-head h3 {
-    font-family: rr;
+    font-family: or;
     font-size: 22px;
     color: #000000;
     padding-bottom: 35px;
@@ -604,7 +632,7 @@ Education And Experiance Part CSS End
     background: none;
     color: #5192aa;
     border: 1px solid #5192aa;
-    font-family: rr;
+    font-family: or;
     text-transform: uppercase;
     font-size: 18px;
     transition: all linear .3s;
@@ -643,7 +671,7 @@ Education And Experiance Part CSS End
 
 .footer h5 {
     color: #000000;
-    font-family: rr;
+    font-family: or;
 
 }
 
