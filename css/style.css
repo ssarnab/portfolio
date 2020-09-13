@@ -455,40 +455,38 @@ Education And Background Part CSS Start
 
 .edu-body .text2 h5 {
     font-family: rb;
-    color: #000;
-    background: #fff;
+    color: #eee;
     padding-bottom: 10px;
     font-size: 20px;
-    text-transform: capitalize;
-    text-align: center;
+  
 }
 
 .edu-body .text2 h4 {
-    font-family: rb;
+    font-family: oeb;
     color: #5192aa;
     padding-bottom: 15px;
-    font-size: 25px;
-    text-transform: capitalize;
-    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 
 .edu-body .text2 p {
     font-family: or;
-    color: #2c3740;
-    padding-bottom: 20px;
-    font-size: 16px;
-    text-transform: capitalize;
-    text-align: center;
+	margin: 10px 0 23px;
+	font-size: 16px;
+	line-height: 32px;
+    color: white;
+
+
 
 
 }
 
 .education .education-head h2 {
-    padding-top: 80px;
     padding-bottom: 80px;
-    font-family: or;
-    color: #2c3740;
+    padding-top: 80px;
+    font-family: ob;
+    color: #eee;
     text-transform: uppercase;
 
 }
@@ -496,10 +494,14 @@ Education And Background Part CSS Start
 .education {
     position: relative;
     padding-bottom: 90px;
+    background: #111;
 
 }
 
-
+.edu-body{
+        background: #222;
+    padding: 70px 0px;
+}
 
 /*=====================================
 Education And Experiance Part CSS End
