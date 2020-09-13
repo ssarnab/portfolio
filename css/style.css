@@ -34,9 +34,10 @@ img {
     font-family: ob;
     src: url(../fonts/OpenSans-SemiBold.ttf);
 }
-@font-face{
-    font-family:oeb;
-    src:url(../fonts/OpenSans-ExtraBold.ttf);
+
+@font-face {
+    font-family: oeb;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
 }
 
 /*import and Declare Fonts Start*/
@@ -203,7 +204,8 @@ body {
     font-size: 30px;
     text-transform: capitalize;
 }
-.banner-bg .text h3 span{
+
+.banner-bg .text h3 span {
     color: #5192aa;
     font-family: reb;
     background: #eee;
@@ -280,10 +282,6 @@ Banner Part CSS End
 info Part CSS Start
 ====================*/
 
-.info-main {
-    padding-top: 150px;
-}
-
 .barfiller {
     width: 100%;
     height: 15px;
@@ -305,36 +303,49 @@ info Part CSS Start
 .barfiller .tipWrap {
     display: none;
 }
-.info-main{
+
+.info-main {
     background: #111;
     padding: 200px 0px;
 }
-.info h3{
+
+.info {
+    background: #222;
+    padding: 70px 20px;
+    box-shadow: 0px 0px 20px rgba(255, 251, 251, 0.2);
+
+
+}
+
+.info h3 {
     color: #eee;
     font-size: 30px;
     font-family: oeb;
     padding-bottom: 20px;
-    
+
 }
-.info h3 span{
+
+.info h3 span {
     font-size: 25px;
 }
-.info i{
-color: #52c0e8;
+
+.info i {
+    color: #52c0e8;
 
 }
 
-.info p{
+.info p {
     font-family: or;
-	margin: 10px 0 23px;
-	font-size: 16px;
-	line-height: 32px;
+    margin: 10px 0 23px;
+    font-size: 16px;
+    line-height: 32px;
     color: white;
     text-transform: capitalize;
 
 }
-.info h5{
-font-family: or;
+
+.info h5 {
+    font-family: or;
     font-size: 20px;
     color: #eee;
 }
@@ -408,10 +419,11 @@ My Service Part CSS Start
     margin-bottom: 30px!important;
     box-shadow: 2px 5px #e5e5e5;
 }
-.service-item i:hover{
+
+.service-item i:hover {
     color: #000;
-transition: 0.3s;
-transform: rotateY(360deg);
+    transition: 0.3s;
+    transform: rotateY(360deg);
 }
 
 .service-item i {
@@ -420,7 +432,7 @@ transform: rotateY(360deg);
     line-height: 100px;
     font-size: 60px;
     color: #52c0e8;
-;
+    ;
 }
 
 
@@ -458,7 +470,7 @@ Education And Background Part CSS Start
     color: #eee;
     padding-bottom: 10px;
     font-size: 20px;
-  
+
 }
 
 .edu-body .text2 h4 {
@@ -472,9 +484,9 @@ Education And Background Part CSS Start
 
 .edu-body .text2 p {
     font-family: or;
-	margin: 10px 0 23px;
-	font-size: 16px;
-	line-height: 32px;
+    margin: 10px 0 23px;
+    font-size: 16px;
+    line-height: 32px;
     color: white;
 
 
@@ -498,8 +510,8 @@ Education And Background Part CSS Start
 
 }
 
-.edu-body{
-        background: #222;
+.edu-body {
+    background: #222;
     padding: 70px 0px;
 }
 
