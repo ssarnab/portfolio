@@ -505,7 +505,8 @@ Education And Background Part CSS Start
 
 .education {
     position: relative;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
+    padding-top: 30px;
     background: #111;
 
 }
