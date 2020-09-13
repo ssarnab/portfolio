@@ -401,23 +401,23 @@ My Service Part CSS Start
 }
 
 .service h4 {
-    padding-bottom: 40px;
-    font-family: ob;
+   
+    font-family: oeb;
     font-size: 25px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 
 .service-item {
-    margin-bottom: 20px;
     padding: 20px 0px;
 
 }
 
 .service-item .si {
 
-    margin-bottom: 30px!important;
-    box-shadow: 2px 5px #e5e5e5;
+  margin-bottom: 30px!important;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+    padding:80px 0px;
 }
 
 .service-item i:hover {
