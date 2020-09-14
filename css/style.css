@@ -342,7 +342,7 @@ info Part CSS Start
     font-size: 16px;
     line-height: 32px;
     color: white;
-    text-transform: capitalize;
+    text-transform: lowercase;
 
 }
 
