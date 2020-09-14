@@ -626,24 +626,33 @@ Education And Experiance Part CSS End
 
 
 /*Contact part css start*/
-
+.contact{
+     background: #111;
+}
 .contact-main {
-    padding-bottom: 70px;
+    padding-bottom: 170px;
+   
 }
 
-.contact-head h3 {
-    font-family: or;
-    font-size: 22px;
-    color: #000000;
-    padding-bottom: 35px;
+.contact-head h2 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-family: ob;
+    color:white;
+    text-transform: uppercase;
 }
 
 .form-control {
     padding: 17px 20px;
+    background: #333;
+    text-align: center;
+    text-transform: uppercase;
+  
 }
 
 .mesg {
     padding-bottom: 167px;
+    
 }
 
 .butn {
@@ -655,6 +664,7 @@ Education And Experiance Part CSS End
     text-transform: uppercase;
     font-size: 18px;
     transition: all linear .3s;
+   
 
 }
 
@@ -662,18 +672,6 @@ Education And Experiance Part CSS End
     background: #5192aa;
     color: #fff;
     border: 1px solid #5192aa;
-}
-
-.brand-item {
-    padding-bottom: 30px;
-    width: 100px;
-    height: 100px;
-
-}
-
-.brand-item img {
-
-    width: 100%;
 }
 
 
