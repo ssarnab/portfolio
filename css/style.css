@@ -84,18 +84,20 @@ Header Part CSS Start
 .header .left {
     color: #fff;
     font-style: 16px;
+    position: relative;
+    z-index: 2222;
 }
 
-.header .left i {
-    color: #fff;
-}
 
 .header .left h6 {
     display: inline-block;
+    font-family: oeb;
 }
 
-.header .left p {
+.header .left a {
     display: inline-block;
+    color: #eee;
+    font-family:or;
 }
 
 .navbar {
