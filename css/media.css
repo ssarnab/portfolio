@@ -2,9 +2,7 @@
 /* extra Small devices (landscape phones, 576px and up)*/
 @media(max-width:575px){
 
-    .header{
-   display: none;
-}
+
     .navbar {
 	padding-top: 0px;
 }
@@ -25,8 +23,8 @@
     
     
  .banner-bg .text {
-	padding-top: 100px;
-   padding-bottom:100px;  
+	/* padding-top: 100px;
+   padding-bottom:100px;   */
 }   
   .banner-bg .text h2 {
 	font-size: 20px;
@@ -55,14 +53,7 @@
 	padding-bottom: 20px;
 	font-size: 20px;
 }   
-    .works{
-        padding-top: 70px;
-    }  
-.works h2 {
-    padding-top: 0;
-	padding-bottom: 20px;
-}  
-    .education{
+.education{
         padding-top: 70px;
         padding-bottom: 0px;
     } 
@@ -104,9 +95,7 @@
    .banner-bg .text .type-wrap {
 	font-size: 32px;
 } 
-      .header{
-   display: none;
-} 
+
         .navbar {
 	padding-top: 0px;
 }

@@ -37,26 +37,7 @@ $(function () {
         return false;
     });
     //adding class in Navbar,back to top,preloader js End  
-    $(".filter-button").click(function () {
-        var value = $(this).attr('data-filter');
-
-        if (value == "all") {
-            //$('.filter').removeClass('hidden');
-            $('.filter').show('1000');
-        } else {
-            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.' + value).hide('3000');
-            $('.filter').filter('.' + value).show('3000');
-
-        }
-    });
-
-    if ($(".filter-button").removeClass("active")) {
-        $(this).removeClass("active");
-    }
-    $(this).addClass("active");
-    
+  
     
     //scrolling 
     var html_body = $('html, body');
@@ -104,10 +85,5 @@ $('.navbar a').on('click', function () {
         infinigall: true ,  
            spinner:'three-bounce',
     });
-
-    
-    //clients slider
-    
-
     
 });

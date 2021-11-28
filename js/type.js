@@ -1,5 +1,5 @@
 $(".type-wrap span:last").typed({
-	strings: ["I am a Web Designer!","Developer!","I Can Create..","Awesome Stuff!","Let's Work Together."],
+	strings: ["Full Stack","Web Developer."],
     backDelay: 40,
 	typeSpeed: 150,
 	loop: true,
